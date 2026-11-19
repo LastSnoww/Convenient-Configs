@@ -1,0 +1,15 @@
+{
+	"schemaVersion": 1,
+	"id": "settingspresets-gametest",
+	"version": "1.0.0",
+	"name": "Settings Presets client game tests",
+	"environment": "client",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"io.github.lastsnow.settingspresets.gametest.SettingsPresetsClientGameTest"
+		]
+	},
+	"depends": {
+		"settingspresets": "*"
+	}
+}
